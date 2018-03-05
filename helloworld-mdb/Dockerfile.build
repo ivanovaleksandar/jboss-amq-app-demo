@@ -1,6 +1,6 @@
 FROM maven
 
-RUN mkdir -r /app
+RUN mkdir -p /app
 
 ADD . app
 

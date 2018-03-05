@@ -1,6 +1,6 @@
 FROM jboss-eap64-openshift
 
-RUN mkdir -r /app
+RUN mkdir -p /app
 
 ADD . app
 
