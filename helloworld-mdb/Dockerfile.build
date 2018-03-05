@@ -1,0 +1,9 @@
+FROM maven
+
+RUN mkdir -r /app
+
+ADD . app
+
+WORKDIR app
+
+RUN mvn clean package
